@@ -1,0 +1,39 @@
+h1{
+    text-align:left;
+}
+body{ 
+  background-color:rgba(95, 99,11,.17);
+}
+.menu{
+  float:right;
+  width:60%
+}
+div{
+    text-align:left;
+    margin-left: 25px;
+}
+divName {
+
+  height: 10px;
+  border: 1px solid black;
+  padding: 5px;
+  align-items: center;
+  margin: 20px;
+}
+textarea {
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: both;
+}
+
+.foot {
+  width: 100%;
+  height: 70px;
+  background-color: rgba(123, 111,  4 , .26);
+  text-align: center;
+  line-height:71px;
+}

@@ -1,0 +1,146 @@
+.top {
+    background-color: rgb(93, 70, 100);
+    height: 155px;
+  }
+
+body{ 
+  /* background-color:rgba(95, 99,11,.17); */
+  /* background-color:rgba(219, 225, 129, 0.17); */
+  background-image :url('paperTexture.jpg');
+
+}
+
+.name{
+font-size: 35px;
+font-family: sans-serif;
+color:rgb(56, 133, 178);
+}
+.menu{
+  background-color: rgb(255, 173, 101);
+  height:115px;
+  left: 0;
+    right: 0; 
+    top:0;
+position:fixed;
+}
+.homeButton{
+  float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeButton:hover {
+  transform: scale(1.15); 
+}
+.academicButton{
+  float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.academicButton:hover {
+  transform: scale(1.15); 
+}
+.accomplishmentsButton{
+  float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.accomplishmentsButton:hover {
+  transform: scale(1.15); 
+}
+.aboutMeButton{
+  float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.aboutMeButton:hover {
+  transform: scale(1.15); 
+}
+.contactButton{
+  float: right; font-size:25px; margin-right: 25px; margin-bottom:230px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactButton:hover{
+  transform: scale(1.15); 
+}
+a{
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  /* color: rgb(128, 155, 184);  */
+  color:red;
+}
+a:visited{ 
+  /* color: rgb(137, 77, 137); */
+  color:black;
+}
+.Academic{
+  top:100px;
+  position:static;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  text-align: center; 
+}
+.Accomplishments{
+  top:100px;
+  position:static;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+  text-align: center; 
+}
+.AboutMe{
+  top:100px;
+  bottom: 100px;
+  position:static;
+  text-align: center; 
+  align-items: center;
+  width:600px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 100px;
+}
+.sect{
+
+  height: 600px;
+  border-radius: 25px;
+  background-color: rgb(227, 233, 244);
+}
+.sectBorder{
+  padding:50px;
+}
+.resumeImage{
+height:10px;
+width:auto;
+}
+.resumeImage img {
+  width: 100px;
+  height: auto;
+  /* position: absolute;  */
+  bottom: 0;  
+  left: 0;  
+}
+
+img{
+  
+  margin-left:20px;
+ 
+  width: 300px;
+  height: auto;
+    
+}
+
+.img{
+ 
+  margin-right: 20px;
+  margin-bottom: 0px;
+  float: right;
+}
+ 
+dl{
+ margin-left: 20px;
+}
+.container {
+  width: 1200px;
+ margin-top:200px;
+  margin-left: 100px;
+}
+
+.bottom {
+    background-color: rgb(255, 173, 101);
+  height: 75px;
+  position:static;
+
+  left: 0;
+  right: 0; 
+  bottom:0;
+}
