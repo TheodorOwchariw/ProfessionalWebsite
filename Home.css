@@ -7,7 +7,6 @@ body{
   /* background-color:rgba(95, 99,11,.17); */
   /* background-color:rgba(219, 225, 129, 0.17); */
   background-image :url('paperTexture.jpg');
-
 }
 
 .name{
@@ -28,30 +27,35 @@ position:fixed;
 }
 .homeButton:hover {
   transform: scale(1.15); 
+  color:red;
 }
 .academicButton{
   float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .academicButton:hover {
   transform: scale(1.15); 
+  color:red;
 }
-.accomplishmentsButton{
+.achievementsButton{
   float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.accomplishmentsButton:hover {
+.achievementsButton:hover {
   transform: scale(1.15); 
+  color:red;
 }
-.aboutMeButton{
+.skillsButton{
   float: right; font-size:25px; margin-right: 25px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.aboutMeButton:hover {
+.skillsButton:hover {
   transform: scale(1.15); 
+  color:red;
 }
 .contactButton{
   float: right; font-size:25px; margin-right: 25px; margin-bottom:230px; font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .contactButton:hover{
   transform: scale(1.15); 
+ 
 }
 a{
   color: white;
@@ -65,6 +69,7 @@ a:visited{
   /* color: rgb(137, 77, 137); */
   color:black;
 }
+
 .Academic{
   top:100px;
   position:static;
@@ -72,19 +77,19 @@ a:visited{
   margin-top: 100px;
   text-align: center; 
 }
-.Accomplishments{
+.Achievements{
   top:100px;
   position:static;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 100px;
   text-align: center; 
 }
-.AboutMe{
+.Skills{
   top:100px;
   bottom: 100px;
   position:static;
   text-align: center; 
-  align-items: center;
+  margin:0 auto;
   width:600px;
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin-top: 100px;
@@ -96,18 +101,7 @@ a:visited{
   background-color: rgb(227, 233, 244);
 }
 .sectBorder{
-  padding:50px;
-}
-.resumeImage{
-height:10px;
-width:auto;
-}
-.resumeImage img {
-  width: 100px;
-  height: auto;
-  /* position: absolute;  */
-  bottom: 0;  
-  left: 0;  
+  padding:55px;
 }
 
 img{
@@ -119,11 +113,21 @@ img{
     
 }
 
-.img{
- 
-  margin-right: 20px;
-  margin-bottom: 0px;
+.meImg{
   float: right;
+}
+ 
+.linkedInIcon,
+.resumeImage {
+    display: inline-block; 
+    text-align: left; 
+    margin-bottom: 25px;
+}
+.linkedInIcon img,
+.resumeImage img{
+  width: 100px;
+  height: auto;
+  margin-top: 45px;
 }
  
 dl{
@@ -134,7 +138,9 @@ dl{
  margin-top:200px;
   margin-left: 100px;
 }
-
+p{
+  font-size:20px;
+}
 .bottom {
     background-color: rgb(255, 173, 101);
   height: 75px;
