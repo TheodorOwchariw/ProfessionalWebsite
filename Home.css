@@ -1,6 +1,7 @@
 .top {
     background-color: rgb(93, 70, 100);
     height: 155px;
+
   }
 
 body{ 
@@ -20,6 +21,8 @@ color:rgb(56, 133, 178);
   left: 0;
     right: 0; 
     top:0;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;  
 position:fixed;
 }
 .homeButton{
@@ -113,8 +116,10 @@ img{
     
 }
 
-.meImg{
+.meImg img{
   float: right;
+  height: 300px;
+  width: auto;
 }
  
 .linkedInIcon,
@@ -137,6 +142,8 @@ dl{
   width: 1200px;
  margin-top:200px;
   margin-left: 100px;
+  /* text-align:center; centers everyting inside of container*/
+  
 }
 p{
   font-size:20px;
@@ -145,8 +152,8 @@ p{
     background-color: rgb(255, 173, 101);
   height: 75px;
   position:static;
-
-  left: 0;
+  border-top-left-radius: 25px;
+  border-top-right-radius:25px;  
   right: 0; 
   bottom:0;
 }
